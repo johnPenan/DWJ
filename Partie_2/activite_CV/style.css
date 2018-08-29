@@ -1,0 +1,51 @@
+/*Definition of the fonts */
+@font-face {
+    font-family: 'cac_champagneregular';
+    src: url('cac_champagne-webfont.eot');
+    src: url('cac_champagne-webfont.eot?#iefix') format('embedded-opentype'),
+         url('cac_champagne-webfont.woff2') format('woff2'),
+         url('cac_champagne-webfont.woff') format('woff'),
+         url('cac_champagne-webfont.ttf') format('truetype'),
+         url('cac_champagne-webfont.svg#cac_champagneregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*Use the fonts and CSS properties*/
+h1
+{
+	/*Use the fonts and CSS properties*/
+	 font-family: 'cac_champagneregular',Arial, "Arial Black",serif;
+	color:green;
+	text-align: right;
+}
+.profil,.passion
+{
+	 font-family: 'cac_champagneregular',Arial, "Arial Black",serif;
+	text-align: right;
+}
+a,img
+{
+	 font-family: 'cac_champagneregular',Arial, "Arial Black",serif;
+	border: 0.5px solid black;
+	box-shadow: 3px 3px 3px black;
+}
+body
+{
+	 font-family: 'cac_champagneregular',Arial, "Arial Black",serif;
+	background-image: url("image_Background.JPG");
+
+}
+h2,p,ul
+{
+	 font-family: 'cac_champagneregular',Arial, "Arial Black",serif;
+	text-align: center;
+}
+.passion
+{
+	 font-family: 'cac_champagneregular',Arial, "Arial Black",serif;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: 2px 2px 15px black;
+}
